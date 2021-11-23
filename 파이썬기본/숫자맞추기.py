@@ -16,7 +16,7 @@ for count in range(1, 7):  # 6번의 맞출기회
     elif (secretNumber < guess):
         print('그 숫자보다 작은수')
     else:
-        break  # 반복문으 빠져나옴
+        break  # 반복문을 빠져나옴
 
 
 if guess == secretNumber:
